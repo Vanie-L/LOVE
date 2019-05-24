@@ -189,21 +189,21 @@
 	            }
 	        }));
 	
-//        	var textAnimate = eval(Jscex.compile("async", function () {
-// 			    var together = new Date();
-// 			    together.setFullYear(2019,4 , 1); 			//时间年月日
-// 			    together.setHours(16);						//小时	
-// 			    together.setMinutes(53);					//分钟
-// 			    together.setSeconds(0);					//秒前一位
-// 			    together.setMilliseconds(2);				//秒第二位
+       	var textAnimate = eval(Jscex.compile("async", function () {
+			    var together = new Date();
+			    together.setFullYear(2019,4 , 1); 			//时间年月日
+			    together.setHours(16);						//小时	
+			    together.setMinutes(53);					//分钟
+			    together.setSeconds(0);					//秒前一位
+			    together.setMilliseconds(2);				//秒第二位
 	
-// 			    $("#code").show().typewriter();
-// 	            $("#clock-box").fadeIn(500);
-// 	            while (true) {
-// 	                timeElapse(together);
-// 	                $await(Jscex.Async.sleep(1000));
-// 	            }
-// 	        }));
+			    $("#code").show().typewriter();
+	            $("#clock-box").fadeIn(500);
+	            while (true) {
+	                timeElapse(together);
+	                $await(Jscex.Async.sleep(1000));
+	            }
+	        }));
 	
 	        var runAsync = eval(Jscex.compile("async", function () {
 	            $await(seedAnimate());
